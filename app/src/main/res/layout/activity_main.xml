@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/good_night_img"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/timer"
+    android:layout_width="150dp"
+    android:textAlignment="center"
+    android:layout_height="80dp"
+    android:text="3:00"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:textSize="50sp"
+    />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/clickany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gotham"
+                android:text="Good "
+                android:textColor="#ffffff"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/gotham"
+                android:text="Luck"
+                android:textColor="#ffffff"
+                android:textSize="32sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="2dp"
+                android:background="#deff00" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/calibri"
+        android:gravity="center"
+        android:text="Tie-Breaker!!! ALL THE BEST!"
+        android:textColor="#9affffff"
+        android:textSize="10sp" />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fr">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/singl"
+            android:text="OR!"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/sing"
+            android:text="Ur Overqualified!!"
+            android:textAlignment="center"
+            android:layout_marginTop="90dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/single"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:text="Are you single?"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+
+    </FrameLayout>
+<EditText
+    android:id="@+id/type"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="400dp"
+    android:layout_marginLeft="100dp"/>
+    <Button
+        android:id="@+id/come"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="come on Baby"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="150dp"/>
+
+    <LinearLayout
+        android:id="@+id/moon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</RelativeLayout>
